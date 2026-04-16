@@ -75,18 +75,6 @@ html.js .js-webform-visually-hidden,html.js .js-webform-visually-hidden[style*="
     margin-top: 30px;
 }
 
-@media (max-width: 900px) {
-    .talismans-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .talismans-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 .talisman-card {
     background: #1c1c1c;
     border-radius: 15px;
@@ -108,36 +96,3 @@ html.js .js-webform-visually-hidden,html.js .js-webform-visually-hidden[style*="
     color: #EAAD4E;
     margin: 15px 0 10px;
 }
-
-.price {
-    display: block;
-    margin: 10px 0;
-    font-size: 18px;
-    color: #EAAD4E;
-}
-
-.talisman-card button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    background: #EAAD4E;
-    color: #000;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.talisman-card button:hover {
-    background: #EAAD4E;
-}
-@keyframes glowPulseHover {
-    0% {
-        box-shadow: 0 0 15px rgba(245, 197, 66, 0.3);
-    }
-
-    50% {
-        box-shadow: 0 0 45px rgba(245, 197, 66, 0.8);
-    }
-
-    100% {
-        box-shadow: 0 0 15px rgba(245, 197, 66, 0.3);
-    }
